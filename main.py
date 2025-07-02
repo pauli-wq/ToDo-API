@@ -7,7 +7,7 @@ Todo API is a simple API for managing a list of tasks.
 
 Endpoints:
 - POST /todos: Create a new Task.
-- GET /todos: Retrieve all Taaks.
+- GET /todos: Retrieve all Tasks.
 - GET /todo/{id}: Retrieve a specific Task.
 - PUT /todos/{id}: Update a specific Task.
 - DELETE /todos/{id}: Delete a specific Task.
