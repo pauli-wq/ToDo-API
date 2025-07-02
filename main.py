@@ -6,11 +6,11 @@ description = """
 Todo API is a simple API for managing a list of tasks.
 
 Endpoints:
-- POST /todos: Create a new todo.
-- GET /todos: Retrieve all todos.
-- GET /todo/{id}: Retrieve a specific todo.
-- PUT /todos/{id}: Update a specific todo.
-- DELETE /todos/{id}: Delete a specific todo.
+- POST /todos: Create a new Task.
+- GET /todos: Retrieve all Taaks.
+- GET /todo/{id}: Retrieve a specific Task.
+- PUT /todos/{id}: Update a specific Task.
+- DELETE /todos/{id}: Delete a specific Task.
 """
 
 app = FastAPI(title="Todo API", description=description, version="1.0.0")
