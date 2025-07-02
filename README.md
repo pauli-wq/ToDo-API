@@ -73,7 +73,7 @@ Una vez instaladas las dependencias, inicia el servidor Uvicorn:
 
     uvicorn main:app --reload
 
-Esto iniciará el servidor en `http://127.0.0.1:8000`. La opción --reload permite que el servidor se reinicie automáticamente cada vez que detecte cambios en tu código.
+Esto iniciará el servidor en `http://127.0.0.1:8000`. La opción `--reload` permite que el servidor se reinicie automáticamente cada vez que detecte cambios en tu código.
 
 🌐 Endpoints de la API y Documentación
 
@@ -87,7 +87,7 @@ Desde la interfaz de Swagger UI (/docs), puedes probar directamente los endpoint
 
 Ejemplos de Endpoints:
 
-    POST /todos/: Crea una nueva tarea.
+`POST /todos/`: Crea una nueva tarea.
 
     {
       "title": "Aprender Docker",
@@ -100,8 +100,6 @@ Ejemplos de Endpoints:
 `GET /todos/{todo_id}`: Obtiene una tarea específica por su ID (ej. /todos/1).
 
 `PUT /todos/{todo_id}`: Actualiza una tarea existente.
-
- Cuerpo de la solicitud (JSON):
 
         {
           "title": "Aprender Docker y K8s",
