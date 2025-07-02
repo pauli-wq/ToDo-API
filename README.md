@@ -49,9 +49,9 @@ Es una buena práctica aislar las dependencias de tu proyecto.
 
 Activa el entorno virtual:
 
-    macOS / Linux:
+macOS / Linux:
 
-source env/bin/activate
+    source env/bin/activate
 
 Windows (CMD):
 
