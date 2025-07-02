@@ -112,16 +112,6 @@ PUT /todos/{todo_id}: Actualiza una tarea existente.
 
 DELETE /todos/{todo_id}: Elimina una tarea por su ID (ej. /todos/1).
 
-📂 Estructura del Proyecto
-
-ToDo/
-├── main.py                 # Punto de entrada de la aplicación FastAPI.
-├── database.py             # Definición de modelos de SQLModel y configuración de la DB.
-├── __init__.py
-│   └── routers/
-│       ├── __init__.py     # Marca 'routers' como un subpaquete.
-│       └── todos.py        # Define los endpoints (rutas) específicas para las tareas.
-
 🤝 Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si encuentras un error o tienes alguna mejora, no dudes en abrir un issue o enviar un pull request.
