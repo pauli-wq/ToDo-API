@@ -36,16 +36,16 @@ Asegúrate de tener Python 3.8+ instalado en tu sistema.
 
 Clona este repositorio en tu máquina local:
 
-git clone https://github.com/tu_usuario/nombre_del_repositorio.git
-cd nombre_del_repositorio
+    git clone https://github.com/tu_usuario/nombre_del_repositorio.git
+    cd nombre_del_repositorio
 
-(Nota: Reemplaza tu_usuario/nombre_del_repositorio con la URL real de tu repositorio si ya lo tienes en GitHub.)
+(Nota: Reemplaza `tu_usuario/nombre_del_repositorio` con la URL real de tu repositorio si ya lo tienes en GitHub.)
 
 2. Crea y Activa un Entorno Virtual (Recomendado)
 
 Es una buena práctica aislar las dependencias de tu proyecto.
 
-python3 -m venv env
+    python3 -m venv env
 
 Activa el entorno virtual:
 
@@ -65,15 +65,15 @@ Windows (PowerShell):
 
 Con el entorno virtual activado, instala todas las librerías necesarias:
 
-pip install "fastapi[all]" uvicorn sqlmodel
+    pip install "fastapi[all]" uvicorn sqlmodel
 
 4. Ejecuta la Aplicación
 
 Una vez instaladas las dependencias, inicia el servidor Uvicorn:
 
-uvicorn main:app --reload
+    uvicorn main:app --reload
 
-Esto iniciará el servidor en http://127.0.0.1:8000. La opción --reload permite que el servidor se reinicie automáticamente cada vez que detecte cambios en tu código.
+Esto iniciará el servidor en `http://127.0.0.1:8000`. La opción --reload permite que el servidor se reinicie automáticamente cada vez que detecte cambios en tu código.
 
 🌐 Endpoints de la API y Documentación
 
@@ -97,25 +97,22 @@ Ejemplos de Endpoints:
       "completed": false
     }
 
-GET /todos/: Obtiene todas las tareas.
+`GET /todos/`: Obtiene todas las tareas.
 
-GET /todos/{todo_id}: Obtiene una tarea específica por su ID (ej. /todos/1).
+`GET /todos/{todo_id}`: Obtiene una tarea específica por su ID (ej. /todos/1).
 
-PUT /todos/{todo_id}: Actualiza una tarea existente.
+`PUT /todos/{todo_id}`: Actualiza una tarea existente.
 
-    Cuerpo de la solicitud (JSON):
+ Cuerpo de la solicitud (JSON):
 
         {
           "title": "Aprender Docker y K8s",
+          Explorar cómo contenerizar la aplicación",
           "completed": true
         }
 
-DELETE /todos/{todo_id}: Elimina una tarea por su ID (ej. /todos/1).
+`DELETE /todos/{todo_id}`: Elimina una tarea por su ID (ej. /todos/1).
 
 🤝 Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si encuentras un error o tienes alguna mejora, no dudes en abrir un issue o enviar un pull request.
-
-📄 Licencia
-
-Este proyecto está bajo la licencia MIT.
