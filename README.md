@@ -28,18 +28,12 @@
 
 Sigue estos pasos para poner en marcha la API en tu entorno local.
 
-Prerrequisitos
-
-Asegúrate de tener Python 3.8+ instalado en tu sistema.
-
 1. Clona el Repositorio
 
 Clona este repositorio en tu máquina local:
 
-    git clone https://github.com/tu_usuario/nombre_del_repositorio.git
-    cd nombre_del_repositorio
-
-(Nota: Reemplaza `tu_usuario/nombre_del_repositorio` con la URL real de tu repositorio si ya lo tienes en GitHub.)
+    git clone https://github.com/pauli-wq/ToDo-API.git
+    cd ToDo-API
 
 2. Crea y Activa un Entorno Virtual (Recomendado)
 
