@@ -89,8 +89,6 @@ Ejemplos de Endpoints:
 
     POST /todos/: Crea una nueva tarea.
 
-        Cuerpo de la solicitud (JSON):
-
     {
       "title": "Aprender Docker",
       "description": "Explorar cómo contenerizar la aplicación",
@@ -107,7 +105,7 @@ Ejemplos de Endpoints:
 
         {
           "title": "Aprender Docker y K8s",
-          Explorar cómo contenerizar la aplicación",
+          "description": Explorar cómo contenerizar la aplicación",
           "completed": true
         }
 
