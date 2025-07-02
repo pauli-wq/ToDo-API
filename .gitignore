@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+
+# Virtual environment
+venv/
+env/
+fast_env/
+.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+/todo.db #
